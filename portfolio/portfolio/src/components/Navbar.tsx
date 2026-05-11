@@ -1,5 +1,7 @@
 import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
+import ThemeToggle from './ThemeToggle';
+import Avatar from './Avatar';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -22,12 +24,15 @@ export default function Navbar() {
       transition={{ duration: 0.5 }}
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-        <motion.div
-          className="text-2xl font-display font-bold tracking-tighter"
-          whileHover={{ scale: 1.05 }}
-        >
-          <span className="text-gradient">ETHER</span>.
-        </motion.div>
+        <div className="flex items-center space-x-4">
+          <Avatar size="sm" showGlow={true} />
+          <motion.div
+            className="text-2xl font-display font-bold tracking-tighter"
+            whileHover={{ scale: 1.05 }}
+          >
+            <span className="text-gradient">KITTOKINZ</span>.
+          </motion.div>
+        </div>
         <div className="hidden md:flex space-x-8">
           {[
             { label: 'Trang chủ', href: '#home' },
@@ -47,6 +52,7 @@ export default function Navbar() {
             </motion.a>
           ))}
         </div>
+        <ThemeToggle />
       </div>
     </motion.nav>
   );

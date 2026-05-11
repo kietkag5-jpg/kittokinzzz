@@ -34,7 +34,7 @@ export default function Skills() {
   return (
     <section id="skills" className="py-24 max-w-7xl mx-auto px-6">
       <div className="text-center mb-16">
-        <h2 className="text-[10px] uppercase tracking-[0.4em] text-white/40 font-bold mb-6">Kỹ năng</h2>
+        <h2 className="text-[10px] uppercase tracking-[0.4em] text-text-secondary font-bold mb-6">Kỹ năng</h2>
         <h3 className="text-4xl md:text-6xl font-display font-bold mb-8">
           CHUYÊN MÔN <span className="text-gradient">KỸ THUẬT</span>
         </h3>

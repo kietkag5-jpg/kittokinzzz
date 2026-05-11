@@ -1,9 +1,12 @@
-# Portfolio Website
+# Kittokinz Portfolio
 
 Một website portfolio cá nhân hiện đại, cao cấp với thiết kế glassmorphism, hiệu ứng động và trải nghiệm người dùng mượt mà.
 
 ## ✨ Tính năng nổi bật
 
+- **🌙 Dark/Light Mode Toggle**: Chuyển đổi chế độ sáng/tối với animation mượt mà
+- **👤 Profile Avatars**: Hình đại diện với glow effect ở navbar, about section và footer
+- **🎨 Dynamic Theming**: Text colors tự động thay đổi theo chế độ sáng/tối
 - **Particle Background**: Hiệu ứng particles động với kết nối tương tác
 - **Typing Animation**: Hiệu ứng gõ chữ cho tiêu đề hero
 - **3D Tilt Cards**: Project cards xoay 3D khi hover
@@ -15,11 +18,13 @@ Một website portfolio cá nhân hiện đại, cao cấp với thiết kế gl
 
 ## Công nghệ sử dụng
 
-- React 19
-- Vite
-- Tailwind CSS
-- Framer Motion
-- TypeScript
+- React 19 + TypeScript
+- Vite (build tool)
+- Tailwind CSS (styling)
+- Framer Motion (animations)
+- React Context (theme management)
+- Canvas API (particle background)
+- CSS Variables (dynamic theming)
 
 ## Cài đặt và chạy
 

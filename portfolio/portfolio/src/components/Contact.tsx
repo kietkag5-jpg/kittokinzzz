@@ -24,11 +24,11 @@ export default function Contact() {
   return (
     <section id="contact" className="py-24 max-w-4xl mx-auto px-6">
       <div className="text-center mb-16">
-        <h2 className="text-[10px] uppercase tracking-[0.4em] text-white/40 font-bold mb-6">Liên hệ</h2>
+        <h2 className="text-[10px] uppercase tracking-[0.4em] text-text-secondary font-bold mb-6">Liên hệ</h2>
         <h3 className="text-4xl md:text-6xl font-display font-bold mb-8">
           HÃY <span className="text-gradient">KẾT NỐI</span>
         </h3>
-        <p className="text-white/70 text-lg">
+        <p className="text-text-secondary text-lg">
           Sẵn sàng biến ý tưởng của bạn thành hiện thực? Hãy thảo luận về dự án tiếp theo của bạn.
         </p>
       </div>

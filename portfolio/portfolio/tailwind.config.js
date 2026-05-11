@@ -8,9 +8,21 @@ export default {
     extend: {
       colors: {
         brand: {
-          primary: '#8b5cf6', // purple
-          secondary: '#06b6d4', // cyan
-          accent: '#ec4899', // pink
+          primary: 'var(--accent-primary)',
+          secondary: 'var(--accent-secondary)',
+          accent: 'var(--accent-tertiary)',
+        },
+        bg: {
+          primary: 'var(--bg-primary)',
+          secondary: 'var(--bg-secondary)',
+        },
+        text: {
+          primary: 'var(--text-primary)',
+          secondary: 'var(--text-secondary)',
+          muted: 'var(--text-muted)',
+        },
+        border: {
+          primary: 'var(--border-color)',
         },
       },
       fontFamily: {

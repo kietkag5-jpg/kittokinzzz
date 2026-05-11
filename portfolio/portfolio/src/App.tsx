@@ -11,6 +11,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import ParticleBackground from './components/ParticleBackground';
+import Avatar from './components/Avatar';
 
 export default function App() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -76,13 +77,16 @@ export default function App() {
           >
             <Hero />
             <div id="about" className="py-24 max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-20 border-t border-white/5">
-              <div>
-                <h2 className="text-[10px] uppercase tracking-[0.4em] text-white/40 font-bold mb-6">Giới thiệu</h2>
-                <h3 className="text-[60px] md:text-[80px] font-sans font-extrabold mb-8 leading-[0.9] tracking-tighter">
-                  NGHỆ THUẬT CỦA <br /><span className="italic font-display font-black text-brand-secondary underline decoration-brand-accent/30 underline-offset-8">CODE</span>
-                </h3>
+              <div className="flex flex-col items-center md:items-start space-y-8">
+                <Avatar size="xl" showGlow={true} className="mx-auto md:mx-0" />
+                <div>
+                  <h2 className="text-[10px] uppercase tracking-[0.4em] text-text-secondary font-bold mb-6">Giới thiệu</h2>
+                  <h3 className="text-[60px] md:text-[80px] font-sans font-extrabold mb-8 leading-[0.9] tracking-tighter">
+                    NGHỆ THUẬT CỦA <br /><span className="italic font-display font-black text-brand-secondary underline decoration-brand-accent/30 underline-offset-8">CODE</span>
+                  </h3>
+                </div>
               </div>
-              <div className="space-y-6 text-white/60 leading-relaxed font-semibold uppercase tracking-wider text-xs">
+              <div className="space-y-6 text-text-secondary leading-relaxed font-semibold uppercase tracking-wider text-xs">
                 <motion.p
                   animate={{ y: [0, -5, 0] }}
                   transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
@@ -126,11 +130,14 @@ export default function App() {
 
       <footer className="py-12 border-t border-white/5 text-center">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="text-xl font-display font-bold tracking-tighter mb-4">
-            <span className="text-gradient">ETHER</span>.
+          <div className="flex flex-col items-center space-y-6 mb-8">
+            <Avatar size="lg" showGlow={true} />
+            <div className="text-xl font-display font-bold tracking-tighter">
+              <span className="text-gradient">KITTOKINZ</span>.
+            </div>
           </div>
-          <p className="text-gray-500 text-sm mb-8 uppercase tracking-widest font-medium">Thiết kế & Lập trình bởi Ether Portfolio © 2026</p>
-          <div className="flex justify-center space-x-8 text-xs font-bold uppercase tracking-widest text-gray-400">
+          <p className="text-text-muted text-sm mb-8 uppercase tracking-widest font-medium">Thiết kế & Lập trình bởi Kittokinz Portfolio © 2026</p>
+          <div className="flex justify-center space-x-8 text-xs font-bold uppercase tracking-widest text-text-secondary">
             <a href="#" className="hover:text-brand-primary transition-colors">Twitter</a>
             <a href="#" className="hover:text-brand-primary transition-colors">Instagram</a>
             <a href="#" className="hover:text-brand-primary transition-colors">Dribbble</a>

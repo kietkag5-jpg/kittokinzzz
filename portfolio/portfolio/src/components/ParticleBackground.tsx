@@ -33,7 +33,7 @@ export default function ParticleBackground() {
     const particles: Particle[] = [];
     const particleCount = 50;
 
-    const colors = ['#8b5cf6', '#06b6d4', '#ec4899', '#3b82f6'];
+    const colors = ['var(--accent-primary)', 'var(--accent-secondary)', 'var(--accent-tertiary)', '#ffffff'];
 
     for (let i = 0; i < particleCount; i++) {
       particles.push({
