@@ -3,22 +3,22 @@ import { useRef } from 'react';
 
 const projects = [
   {
-    title: 'E-Commerce Platform',
-    description: 'Full-stack e-commerce solution with React, Node.js, and Stripe integration.',
-    image: 'https://via.placeholder.com/400x300/8b5cf6/ffffff?text=Project+1',
-    tags: ['React', 'Node.js', 'MongoDB'],
+    title: 'Game Character Design',
+    description: 'Thiết kế nhân vật game độc đáo, biểu cảm và phù hợp với phong cách visual storytelling.',
+    image: 'https://cdn.discordapp.com/attachments/1288526030054752314/1502708371265163394/Screenshot_2026-04-14_120438.png?ex=6a02abfa&is=6a015a7a&hm=2d52c4d3df1e2272278e3984ebbdc88faa11c0e7191ed14438ea76d2e069d11a',
+    tags: ['Game Art', 'Character', 'Concept'],
   },
   {
-    title: '3D Portfolio Website',
-    description: 'Interactive portfolio with Three.js animations and modern UI design.',
-    image: 'https://via.placeholder.com/400x300/06b6d4/ffffff?text=Project+2',
-    tags: ['Three.js', 'React', 'Tailwind'],
+    title: 'Photobook Experience',
+    description: 'Thiết kế photobook sáng tạo với layout nghệ thuật, ảnh đẹp và storytelling chuyên nghiệp.',
+    image: 'https://cdn.discordapp.com/attachments/1288526030054752314/1502708246270574592/Screenshot_2026-03-25_210102.png?ex=6a02abdc&is=6a015a5c&hm=b83f607dd66b3794f5c74fd78e27dad24b4e0270d7a053b9737d78d10ac29113',
+    tags: ['Photobook', 'Design', 'Storytelling'],
   },
   {
-    title: 'AI Chat Application',
-    description: 'Real-time chat app with AI integration using OpenAI API.',
-    image: 'https://via.placeholder.com/400x300/ec4899/ffffff?text=Project+3',
-    tags: ['React', 'Socket.io', 'OpenAI'],
+    title: 'Web Interface Design',
+    description: 'Thiết kế giao diện web chuyên nghiệp, tinh tế và chuẩn UX/UI hiện đại.',
+    image: 'https://cdn.discordapp.com/attachments/1288526030054752314/1502712303408382084/image.png?ex=6a02afa4&is=6a015e24&hm=59ed581f1164c2475604115ad22311556bb894bf3244e2787349b202d321e2b6',
+    tags: ['Web Design', 'UI/UX', 'Creative'],
   },
 ];
 
