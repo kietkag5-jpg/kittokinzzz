@@ -7,5 +7,6 @@
     "preview": "npm --prefix portfolio/portfolio run preview",
     "lint": "npm --prefix portfolio/portfolio run lint",
     "deploy": "npm --prefix portfolio/portfolio run deploy"
-  }
+  },
+  "postinstall": "npm --prefix portfolio/portfolio install"
 }
