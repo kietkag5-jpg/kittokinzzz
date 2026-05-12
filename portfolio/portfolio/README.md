@@ -55,7 +55,7 @@ src/
 │   ├── Projects.tsx
 │   └── Contact.tsx
 ├── App.tsx
-├── main.tsx
+├── main.jsx
 └── index.css
 ```
 
